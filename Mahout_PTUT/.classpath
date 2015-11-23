@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="/home/bastien/mahout/examples/target/dependency/mahout-mr-0.11.2-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="/home/bastien/mahout/examples/target/dependency/slf4j-api-1.7.12.jar"/>
 	<classpathentry kind="lib" path="/home/bastien/mahout/examples/target/dependency/slf4j-log4j12-1.7.12.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
