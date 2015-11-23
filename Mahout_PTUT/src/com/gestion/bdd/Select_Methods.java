@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class Select_Methods {
 	
-	private static void affichageResulSet(ResultSet rs) throws SQLException {
+	private static void affichageResultSet(ResultSet rs) throws SQLException {
 		ResultSetMetaData metaData = rs.getMetaData();
 		while (rs.next()) {
 			String res = "" ;
@@ -33,7 +33,7 @@ public class Select_Methods {
 			Statement statement = connexion.createStatement();
 			statement = connexion.createStatement();
 	        ResultSet rs = statement.executeQuery(query);
-	        affichageResulSet(rs);
+	        affichageResultSet(rs);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
